@@ -2,15 +2,15 @@
 STRAIGHT TO THE POINT BACKEND/FRONTEND
 
 FRONTEND
-npx create-next-app@latest
-*create .env
-npm i dotenv
+npx create-next-app@latest |
+*create .env |
+npm i dotenv |
 NEXT_PUBLIC_API_URL="http://localhost:8000"
 
 BACKEND
-npm init -y
-npx tsc --init
-npm i -D ts-node typescript @types/node
+npm init -y  |
+npx tsc --init  |
+npm i -D ts-node typescript @types/node  |
 
 *go to tsconfig.json and change these:
 - "module": "commonjs" ---> "module": "nodenext" 
@@ -20,8 +20,8 @@ npm i -D ts-node typescript @types/node
 *go to packeage.json and add 
 -"dev": "nodemon index.ts"
 
-npm i express body-parser cors dotenv helmet morgan concurrently
-npm i -D nodemon @types/cors @types/express @types/morgan
+npm i express body-parser cors dotenv helmet morgan  |
+npm i -D nodemon @types/cors @types/express @types/morgan  |
 
 *create .env
 
